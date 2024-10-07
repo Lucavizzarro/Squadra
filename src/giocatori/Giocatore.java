@@ -44,10 +44,30 @@ public class Giocatore {
             gol=gol1;
             capitano=false;
         }
+        public Giocatore(boolean cap1){
+            giocatore=null;
+            gol=0;
+            capitano=cap1;
+        }
         public Giocatore(String g1, int gol1){
             giocatore=g1;
             gol=gol1;
             capitano=false;
+        }
+        public Giocatore(int gol1, boolean cap1){
+            giocatore=null;
+            gol=gol1;
+            capitano=cap1;
+        }
+        public Giocatore(String g1, boolean cap1){
+            giocatore=g1;
+            gol=0;
+            capitano=cap1;
+        }
+        public Giocatore(String g1,int gol1, boolean cap1){
+            giocatore=g1;
+            gol=gol1;
+            capitano=cap1;
         }
 
 
